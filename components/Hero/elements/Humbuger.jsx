@@ -1,8 +1,12 @@
 import React from "react";
+import { FaHamburger } from "react-icons/fa";
 
 export default function Humbeger(props) {
   return (
-    <>{/* <Swap onElement="ON" offElement="OFF"></Swap> */}</>
+    <>
+      <FaHamburger />
+      {/* <Swap onElement="ON" offElement="OFF"></Swap> */}
+    </>
     // <button className="self-center xl:hidden" aria-label="humburger" onClick={props.onClick}>
     //   <svg
     //     width={35}
