@@ -6,11 +6,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function Humbeger(props) {
   return (
     <>
-      <GiHamburgerMenu
-        onClick={props.onClick}
+      <button onClick={props.onClick}
         className="self-center xl:hidden"
         aria-label="humburger"
-      />
+      >Menu</button>
     </>
     // <button className="self-center xl:hidden" aria-label="humburger" onClick={props.onClick}>
     //   <svg
