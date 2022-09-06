@@ -1,16 +1,8 @@
 import React from "react";
-// import Swap, { args } from "daisyui";
-import { Button, Swap } from "react-daisyui";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Humbeger(props) {
   return (
-    <>
-      <button onClick={props.onClick}
-        className="self-center xl:hidden"
-        aria-label="humburger"
-      >Menu</button>
-    </>
+    <>{/* <Swap onElement="ON" offElement="OFF"></Swap> */}</>
     // <button className="self-center xl:hidden" aria-label="humburger" onClick={props.onClick}>
     //   <svg
     //     width={35}
