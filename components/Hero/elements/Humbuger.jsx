@@ -1,10 +1,10 @@
 import React from "react";
-import { FaHamburger } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Humbeger(props) {
   return (
     <>
-      <FaHamburger />
+      <GiHamburgerMenu />
       {/* <Swap onElement="ON" offElement="OFF"></Swap> */}
     </>
     // <button className="self-center xl:hidden" aria-label="humburger" onClick={props.onClick}>
