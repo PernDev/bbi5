@@ -23,6 +23,7 @@ export default function Article(props) {
                     alt="image"
                     width={35}
                     height={35}
+                    layout="fixed"
                   />
                 </div>
               ) : (
