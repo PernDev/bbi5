@@ -34,7 +34,7 @@ export default function index() {
             <div className="w-full px-4 mb-20 md:w-2/5 md:mb-0">
               <a className="flex flex-wrap w-full mb-10 text-left" href="#">
                 <div className="w-full mb-2 md:w-auto md:pr-10 md:mb-0">
-                  <h3 className="mb-4 text-xl text-yellow-500 dark:text-coolGray-900">
+                  <h3 className="mb-4 text-xl text-yellow-500 dark:text-coolGray-900 ">
                     ຫຼຸດຜ່ອນແຮງງານຂອງຜູ້ຊາຍ
                   </h3>
                   <p className="max-w-md text-xl  text-yellow-500 dark:text-coolGray-900">
