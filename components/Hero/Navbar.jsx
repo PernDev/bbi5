@@ -7,6 +7,7 @@ import Button from "../elements/common/Button";
 import Toggle from "../elements/Darkmode/ThemeToggle";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
+import {BsLayoutTextSidebar} from "react-icons/bs"
 
 export default function Navbar() {
   const [scrollY, setScrollY] = useState(0);
@@ -120,7 +121,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <GiHamburgerMenu
+        <BsLayoutTextSidebar
           className="self-center xl:hidden"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
