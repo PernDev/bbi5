@@ -119,11 +119,12 @@ export default function Navbar() {
             <Button>ລົງທະບຽນ</Button>
           </div>
         </div>
+
         <GiHamburgerMenu
           className="self-center xl:hidden"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
-        />
+        /> 
         <Toggle />
       </nav>
       <div

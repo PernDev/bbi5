@@ -652,3 +652,5 @@ module.exports = {
   corePlugins: {},
   plugins: [require("daisyui")],
 };
+
+
