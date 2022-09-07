@@ -150,74 +150,75 @@ const index = (props) => {
     },
   ];
   return (
-    <section id="blog" className="py-16 md:py-24 lg:pb-52">
-      <div className="container px-4 mx-auto  dark:text-white">
-        <div data-aos="fade-up" className="flex flex-wrap items-center mb-16">
-          <div className="w-full mb-8 md:w-3/4 md:mb-0">
-            <span className="inline-block px-2 py-px mb-4 text-xs font-medium leading-5 text-coolGray-900 uppercase bg-yellow-500 dark:text-white rounded-full shadow-sm">
-              Blog
-            </span>
-            <h3 className="mb-4 text-4xl font-bold leading-tight tracking-tighter md:text-5xl text-coolGray-900 dark:text-white">
-              Facebook Post
-            </h3>
-            <p className="text-lg font-medium md:text-xl text-coolGray-900 dark:text-white">
-              ໂດຍ Platform ພວກເຮົາ,
-              ບົດຄວາມ ກ່ຽວກັບປະສົບການຂອງຜູ້ໃຊ້ອອນໄລນ໌ ແລະ ປະສົບການຜູ້ໃຊ້ອອນລາຍ ທີ່ແຕກໂຕນກັນ.
-            </p>
-          </div>
-          <div className="w-full md:w-1/4">
-            <a
-              className="flex items-center justify-center px-4 py-2 ml-auto text-sm font-medium leading-5 bg-yellow-500 rounded-md text-coolGray-900 dark:text-white hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50 md:max-w-max"
-              href="#"
-            >
-              ເບິ່ງໂພສທັງໝົດ
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="flex flex-wrap -mx-4">
-          {data.map((e, key) => (
-            <div className="w-full px-4 mb-8 md:w-1/2 lg:w-1/3" key={key}>
-              <Link href="/">
-                <a className="relative transition-all block mb-6 overflow-hidden rounded-md">
-                  <img
-                    className="w-full transition ease-in-out hover:scale-125 duration-700"
-                    src={e.img}
-                    alt="image"
-                    onClick={() =>
-                      props.actBlogdetail({
-                        blogdetails: {
-                          date: e.date,
-                          img: e.img,
-                          des: e.des,
-                          detail: e.detail,
-                          list: e.list,
-                          b_img: e.build_img,
-                          id: e.id,
-                          name: e.name,
-                          degree: e.degree,
-                          data: data,
-                        },
-                      })
-                    }
-                  />
-                </a>
-              </Link>
-              <p className="mb-2 font-medium text-coolGray-900 dark:text-white">
-                {e.date}
-              </p>
-              <Link href="/Blog">
-                <a className="inline-block mb-4 text-2xl font-bold leading-tight text-coolGray-900 dark:text-white hover:text-coolGray-900 hover:underline">
-                  {e.detail}
-                </a>
-              </Link>
-              <p className="mb-4 text-base font-medium md:text-lg text-coolGray-900 dark:text-white">
-                {e.des}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <></>
+    // <section id="blog" className="py-16 md:py-24 lg:pb-52">
+    //   <div className="container px-4 mx-auto  dark:text-white">
+    //     <div data-aos="fade-up" className="flex flex-wrap items-center mb-16">
+    //       <div className="w-full mb-8 md:w-3/4 md:mb-0">
+    //         <span className="inline-block px-2 py-px mb-4 text-xs font-medium leading-5 text-coolGray-900 uppercase bg-yellow-500 dark:text-white rounded-full shadow-sm">
+    //           Blog
+    //         </span>
+    //         <h3 className="mb-4 text-4xl font-bold leading-tight tracking-tighter md:text-5xl text-coolGray-900 dark:text-white">
+    //           Facebook Post
+    //         </h3>
+    //         <p className="text-lg font-medium md:text-xl text-coolGray-900 dark:text-white">
+    //           ໂດຍ Platform ພວກເຮົາ,
+    //           ບົດຄວາມ ກ່ຽວກັບປະສົບການຂອງຜູ້ໃຊ້ອອນໄລນ໌ ແລະ ປະສົບການຜູ້ໃຊ້ອອນລາຍ ທີ່ແຕກໂຕນກັນ.
+    //         </p>
+    //       </div>
+    //       <div className="w-full md:w-1/4">
+    //         <a
+    //           className="flex items-center justify-center px-4 py-2 ml-auto text-sm font-medium leading-5 bg-yellow-500 rounded-md text-coolGray-900 dark:text-white hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50 md:max-w-max"
+    //           href="#"
+    //         >
+    //           ເບິ່ງໂພສທັງໝົດ
+    //         </a>
+    //       </div>
+    //     </div>
+    //     <div data-aos="fade-up" className="flex flex-wrap -mx-4">
+    //       {data.map((e, key) => (
+    //         <div className="w-full px-4 mb-8 md:w-1/2 lg:w-1/3" key={key}>
+    //           <Link href="/">
+    //             <a className="relative transition-all block mb-6 overflow-hidden rounded-md">
+    //               <img
+    //                 className="w-full transition ease-in-out hover:scale-125 duration-700"
+    //                 src={e.img}
+    //                 alt="image"
+    //                 onClick={() =>
+    //                   props.actBlogdetail({
+    //                     blogdetails: {
+    //                       date: e.date,
+    //                       img: e.img,
+    //                       des: e.des,
+    //                       detail: e.detail,
+    //                       list: e.list,
+    //                       b_img: e.build_img,
+    //                       id: e.id,
+    //                       name: e.name,
+    //                       degree: e.degree,
+    //                       data: data,
+    //                     },
+    //                   })
+    //                 }
+    //               />
+    //             </a>
+    //           </Link>
+    //           <p className="mb-2 font-medium text-coolGray-900 dark:text-white">
+    //             {e.date}
+    //           </p>
+    //           <Link href="/Blog">
+    //             <a className="inline-block mb-4 text-2xl font-bold leading-tight text-coolGray-900 dark:text-white hover:text-coolGray-900 hover:underline">
+    //               {e.detail}
+    //             </a>
+    //           </Link>
+    //           <p className="mb-4 text-base font-medium md:text-lg text-coolGray-900 dark:text-white">
+    //             {e.des}
+    //           </p>
+    //         </div>
+    //       ))}
+    //     </div>
+    //   </div>
+    // </section>
   );
 };
 const mapDispatchToProps = {
