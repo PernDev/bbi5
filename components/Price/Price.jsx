@@ -165,7 +165,7 @@ export const Price = () => {
                          key={key}
                          className="flex items-center mb-3 text-coolGray-500 font-medium"
                        >
-                       < AiFillCheckCircle className="mr-3 text-yellow-500" src={val.src} alt="image" />
+                       < AiFillCheckCircle className="mr-3 text-yellow-500 text-2xl"  rc={val.src} alt="image" />
                          {/* <img className="mr-3" src={val.src} alt="image" /> */}
                          <span>{val.des}</span>
                        </li>
