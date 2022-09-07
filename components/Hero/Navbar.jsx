@@ -123,11 +123,11 @@ export default function Navbar() {
           </div>
         </div>
 
-        <BsLayoutTextSidebar
+        {/* <BsLayoutTextSidebar
           className="self-center xl:hidden"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
-        /> 
+        />  */}
         <Toggle />
       </nav>
       <div
