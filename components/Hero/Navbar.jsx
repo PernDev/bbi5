@@ -133,7 +133,7 @@ export default function Navbar() {
           !openNav ? "hidden" : "inline-block"
         }  w-full h-full bg-opacity-50 bg-coolGray-900`}
       >
-        <div className="fixed top-0 bottom-0 left-0 w-2/3 max-w-xs bg-white dark:bg-black">
+        {/* <div className="fixed top-0 bottom-0 left-0 w-2/3 max-w-xs bg-white dark:bg-black">
           <nav className="relative h-full p-6 overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
               <Logo onClick={() => setActive(0)} />
@@ -229,7 +229,7 @@ export default function Navbar() {
             </div>
           </nav>
           <CrossButton onClick={() => setOpenNav((val) => !val)} />
-        </div>
+        </div> */}
       </div>
       {/* <div
         className={`xl:hidden fixed top-0 left-0 z-40 ${
