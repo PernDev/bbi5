@@ -124,11 +124,12 @@ export default function Navbar() {
         </div>
 
         <BsLayoutTextSidebar
-          className="self-center xl:hidden mr-5 text-2xl text-yellow-500"
+          className="m-auto xl:hidden mr-5  h-8 w-8"
+          // className="m-auto xl:hidden mr-5 dark:text-white white:text-dark bg-yellow:text-white h-8 w-8 text-yellow-500"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
         /> 
-        <Toggle />
+        <Toggle className="m-auto"/>
       </nav>
       <div
         className={`xl:hidden fixed top-0 left-0 z-40 ${
