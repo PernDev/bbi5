@@ -124,7 +124,7 @@ export default function Navbar() {
         </div>
 
         <BsLayoutTextSidebar
-          className="self-center xl:hidden"
+          className="self-center xl:hidden mr-5 text-2xl text-yellow-500"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
         /> 
