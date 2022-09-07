@@ -6,9 +6,9 @@ import Logo from "../elements/common/Logo";
 import Button from "../elements/common/Button";
 import Toggle from "../elements/Darkmode/ThemeToggle";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import {BsLayoutTextSidebar} from "react-icons/bs"
-import {IoIosList} from "react-icons/io"
+// import {IoIosList} from "react-icons/io"
 
 
 export default function Navbar() {
@@ -123,10 +123,10 @@ export default function Navbar() {
           </div>
         </div>
 
-        <IoIosList
+        <BsLayoutTextSidebar
           className="self-center xl:hidden"
           aria-label="humburger"
-          // onClick={() => setOpenNav((val) => !val)}
+          onClick={() => setOpenNav((val) => !val)}
         /> 
         <Toggle />
       </nav>
