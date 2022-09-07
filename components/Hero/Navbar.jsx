@@ -8,6 +8,8 @@ import Toggle from "../elements/Darkmode/ThemeToggle";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {BsLayoutTextSidebar} from "react-icons/bs"
+import {IoIosList} from "react-icons/io"
+
 
 export default function Navbar() {
   const [scrollY, setScrollY] = useState(0);
@@ -121,7 +123,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <BsLayoutTextSidebar
+        <IoIosList
           className="self-center xl:hidden"
           aria-label="humburger"
           onClick={() => setOpenNav((val) => !val)}
