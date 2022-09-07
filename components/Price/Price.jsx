@@ -1,6 +1,7 @@
 import React from "react";
-import { CardPrice } from "./CardPrice";
+// import { CardPrice } from "./CardPrice";
  import Image from "next/image";
+ import {AiFillCheckCircle} from "react-icons/ai"
 export const Price = () => {
   const Prices = [
     {
@@ -164,7 +165,8 @@ export const Price = () => {
                          key={key}
                          className="flex items-center mb-3 text-coolGray-500 font-medium"
                        >
-                         <img className="mr-3" src={val.src} alt="image" />
+                       < AiFillCheckCircle className="mr-3 text-yellow-500" src={val.src} alt="image" />
+                         {/* <img className="mr-3" src={val.src} alt="image" /> */}
                          <span>{val.des}</span>
                        </li>
                      ))}
