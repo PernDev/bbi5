@@ -4,6 +4,8 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Link from "next/link";
+
+
 export const JoinUs = () => {
   const [validate, setValidate] = useState("");
   const [name, setName] = useState("");
@@ -100,9 +102,9 @@ export const JoinUs = () => {
             <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
               <div className="relative transition-all h-full overflow-hidden max-w-max mx-auto rounded-md">
                 <img
-                  src="flex-ui-assets/logos/bi.webp"
+                 className="cursor-pointer transition ease-in-out hover:scale-125 duration-700"
+                  src='flex-ui-assets/logos/bi.webp'
                   alt="image"
-                  className="cursor-pointer transition ease-in-out hover:scale-125 duration-700"
                 />
               </div>
             </div>

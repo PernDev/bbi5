@@ -79,9 +79,6 @@ export const Price = () => {
              <h3 className="mb-4 text-3xl md:text-5xl sm:text-sm text-coolGray-900 dark:text-white font-bold tracking-tighter">
                ຕອນນີ້ລະບົບຂອງພວກເຮົາກຳລັງເຂົ້າສູ່ການພັດທະນາຢູ່
              </h3>
-             {/* <p className="mb-12 text-lg md:text-xl text-coolGray-900 dark:text-white font-medium">
-               Pricing that scales with your business immediately.
-             </p> */}
            </div>
            <div
              data-aos="fade-up"
@@ -166,7 +163,6 @@ export const Price = () => {
                          className="flex items-center mb-3 text-coolGray-500 font-medium"
                        >
                        < AiFillCheckCircle className="mr-3 text-yellow-500 text-2xl"  rc={val.src} alt="image" />
-                         {/* <img className="mr-3" src={val.src} alt="image" /> */}
                          <span>{val.des}</span>
                        </li>
                      ))}

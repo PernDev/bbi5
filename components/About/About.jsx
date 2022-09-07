@@ -1,5 +1,6 @@
 import React from "react";
-const about = { image: "flex-ui-assets/logos/aboutus.webp" };
+import Image from "next/image"
+// const about = { image: "flex-ui-assets/logos/aboutus.webp" };
 export const About = () => {
   return (
     <div id="about">
@@ -8,10 +9,14 @@ export const About = () => {
           <div data-aos="fade-up" className="flex flex-wrap -mx-4">
             <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
               <div className="relative transition-all h-full overflow-hidden max-w-max mx-auto rounded-md">
-                <img
-                  src={about.image}
+                <Image
+                  // src={about.image}
+                  src="/flex-ui-assets/logos/aboutus.webp"
                   alt="image"
                   className="cursor-pointer transition ease-in-out hover:scale-125 duration-700"
+                  layout='fixed'
+                  height="500"
+                  width="500"
                 />
               </div>
             </div>
@@ -20,7 +25,7 @@ export const About = () => {
                 About Us
               </span>
               <div className="relative pt-12 pb-6 sm:p-6 mb-8">
-                <img
+                {/* <img
                   className="absolute top-0 left-0"
                   src="flex-ui-assets/elements/testimonials/quote-top-yellow.svg"
                   alt="img"
@@ -29,7 +34,7 @@ export const About = () => {
                   className="absolute bottom-0 right-0"
                   src="flex-ui-assets/elements/testimonials/quote-down-yellow.svg"
                   alt="img"
-                />
+                /> */}
                 <div className="relative">
                   <h2 className="text-2xl md:text-4xl font-semibold tracking-tighter">
                     ພວກເຮົາໃຫ້ບໍລິການ ເວັບ e-Commerce ທີ່ປະສົມປະສານລົງໂຕ ກັບ
